@@ -1,6 +1,14 @@
 /* Space out content a bit */
 body {
   padding-bottom: 20px;
+  font-family: Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.4em;
+  font-size: 1.6em;
+}
+
+p {
+  margin: 0 0 15px;
 }
 
 .header {
