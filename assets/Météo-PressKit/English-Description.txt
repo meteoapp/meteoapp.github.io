@@ -1,0 +1,9 @@
+A simple, yet powerful weather application specifically designed for Canadians. Météo utilizes data from Environment and Climate Change Canada and provides advanced features such as current location support to find your closest weather station, and push notifications to stay on top of weather alerts.
+
+- Current conditions, 7 Day forecast, and 24 Hour forecast
+- English and French language support which can be set in app
+- Today Widget for quick, at-a-glance weather information
+- Current location support to keep the closest weather station in your feed
+- Push notifications for all types of alerts issued by Environment and Climate Change Canada
+- Animated radar view with multiple intensities and composite imagery
+- Includes all weather stations from Environment and Climate Change Canada

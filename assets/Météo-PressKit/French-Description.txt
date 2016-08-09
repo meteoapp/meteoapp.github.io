@@ -1,0 +1,9 @@
+Un logiciel de météo simple mais puissant, conçu spécifiquement pour les Canadiens. Météo utilise les données d’Environnement et Changement Climatique Canada en fournissant les fonctions avancées telles que lieu actuel pour trouver la station météo la plus proche et notifications push pour maîtriser les alertes météorologiques.
+
+- Conditions actuels, prévisions 7 jours, prévisions 24 heures
+- Assistance en anglais et français, régler dans logiciel
+- Widget d'Aujourd'hui pour informations météo à clin d'œil
+- Assistance de lieu actuel garde la station météo la plus proche dans votre fil
+- Notifications push pour toutes les alertes délivrés par Environnement et Changement Climatique Canada
+- Radar animé avec plusieurs intensités et images composites
+- Données de toutes les stations météos d'Environnement et Changement Climatique Canada
