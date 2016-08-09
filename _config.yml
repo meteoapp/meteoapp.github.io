@@ -1,4 +1,4 @@
-version: 1
+version: 2
 
 url: https://www.meteoapp.ca
 exclude: ["CNAME", "README.md"]
