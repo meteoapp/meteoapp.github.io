@@ -101,11 +101,7 @@ h4 {
 }
 
 @media (max-width: 540px) {
-  p.bottom-links {
-    float: none !important;
-    text-align: center;
-  }
-  .appstore {
+  .smallcenter {
     float: none !important;
     text-align: center;
   }
