@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Météo{% if page.title %} - {{ page.title }}{% endif %}</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Météo Canadian weather app for iPhone, and iPad.">
-    <meta name="apple-itunes-app" content="app-id=925058325">
-    <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css?v={{ site.version }}">
-    <link rel="stylesheet" type="text/css" href="/assets/css/site.css?v={{ site.version }}">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png?v={{ site.version }}">
-    <link rel="icon" href="/assets/images/favicon.ico?v={{ site.version }}">
 
-    <!--[if lt IE 9]>
+<head>
+  <title>Météo{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Météo Canadian weather app for iPhone, and iPad.">
+  <meta name="apple-itunes-app" content="app-id=925058325">
+  <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css?v={{ site.version }}">
+  <link rel="stylesheet" type="text/css" href="/assets/css/site.css?v={{ site.version }}">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/apple-touch-icon.png?v={{ site.version }}">
+  <link rel="icon" href="/assets/images/favicon.ico?v={{ site.version }}">
+
+  <!--[if lt IE 9]>
       <script type="text/javascript" src="/assets/js/html5shiv.min.js?v={{ site.version }}"></script>
       <script type="text/javascript" src="/assets/js/respond.min.js?v={{ site.version }}"></script>
     <![endif]-->
-  </head>
-  <body>
+</head>
 
-    <div class="header clearfix">
-      <div class="container">
-        <div class="logo pull-left">
-          <a href="/">
-            <img src="/assets/images/header_icon.png?v={{ site.version }}" alt="Icon" class="pull-left">
-            <div class="pull-left hidden-xs">Météo - Canadian Weather</div>
-            <div class="pull-left visible-xs">Météo</div>
-          </a>
-        </div>
-        <div id="google_translate_element" class="translator text-right"></div>
-        <script type="text/javascript">
+<body>
+
+  <div class="header clearfix">
+    <div class="container">
+      <div class="logo pull-left">
+        <a href="/">
+          <img src="/assets/images/header_icon.png?v={{ site.version }}" alt="Icon" class="pull-left">
+          <div class="pull-left hidden-xs">Météo - Canadian Weather</div>
+          <div class="pull-left visible-xs">Météo</div>
+        </a>
+      </div>
+      <div id="google_translate_element" class="translator text-right"></div>
+      <script type="text/javascript">
           function googleTranslateElementInit() {
-            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-61716961-3'}, 'google_translate_element');
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'fr', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true, gaId: 'UA-61716961-3' }, 'google_translate_element');
           }
         </script>
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-      </div>
-    </div>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</div>
+</div>
 
-    <div class="container content">
-      {{ content }}
-    </div>
+<div class="container content">
+  {{ content }}
+</div>
 
-    <div class="container">
-      <footer class="footer clearfix">
-        <p class="smallcenter pull-right"><a href="/privacy/">Privacy</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="/faq/">FAQs</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="/contact/">Contact / Press</a></p>
-        <p class="smallcenter pull-left">&copy; 2016 North Bits Solutions Ltd.</p>
-      </footer>
-    </div>
+<div class="container">
+  <footer class="footer clearfix">
+    <p class="smallcenter pull-right"><a href="/privacy/">Privacy</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;<a href="/faq/">FAQs</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+      <a
+        href="/contact/">Contact / Press</a>
+    </p>
+    <p class="smallcenter pull-left">&copy; 2016-2017 North Bits Solutions Ltd.</p>
+  </footer>
+</div>
 
-    <script type="text/javascript" src="/assets/js/jquery.min.js?v={{ site.version }}"></script>
-    <script type="text/javascript" src="/assets/js/bootstrap.min.js?v={{ site.version }}"></script>
-    <script type="text/javascript" src="/assets/js/site.js?v={{ site.version }}"></script>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-61716961-3', 'auto');
-        ga('send', 'pageview');
+<script type="text/javascript" src="/assets/js/jquery.min.js?v={{ site.version }}"></script>
+<script type="text/javascript" src="/assets/js/bootstrap.min.js?v={{ site.version }}"></script>
+<script type="text/javascript" src="/assets/js/site.js?v={{ site.version }}"></script>
+<script>
+      (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-61716961-3', 'auto');
+      ga('send', 'pageview');
     </script>
-  </body>
+</body>
+
 </html>
